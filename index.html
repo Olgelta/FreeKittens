@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EJX :: Player</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/svg" href="./icons/favicon.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/svg" href="./icons/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+  <script type="module" crossorigin src="./index.js"></script>
+  <link rel="stylesheet" crossorigin href="./index.css">
+</head>
+<body>
+    <canvas id="my-canvas"></canvas>
+    <div id="domOverlay" class="domOverlay">
+        <div id="cover" class="cover centered" style="display: none;"></div>
+        <div id="coverSpinner" class="spinner centered" style="display: none;"></div>
+        <div id="spinner" class="spinner centered" style="display: none;"></div>
+        <p id="tapToStart" class="cta centered" style="display: none;">Tap to start</p>
+        <div class="arDomRoot centered">
+            <div class="floorDetection centeredFlexRows" style="display: none;">
+                <img src="./images/ground-detection.png"></img>
+                <p class="cta arInstruction">Move your device to detect the ground</p>
+            </div>
+            <div class="arConfirmHittest" style="display: none;">
+                <p class="cta arInstruction">Tap to place</p>
+            </div>
+            <div class="arEditButton"></div>
+        </div>
+    </div>
+</body>
+</html>

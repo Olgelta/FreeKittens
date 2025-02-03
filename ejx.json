@@ -1,0 +1,22 @@
+{
+	"type": "EJXCube",
+	"title": "FreeKittens01",
+	"version": {
+		"editor": 1,
+		"three": 151
+	},
+	"content": "content/app.js",
+	"app-json-length": 3180381,
+	"box": {
+		"min": {
+			"x": -1,
+			"y": -1,
+			"z": -1
+		},
+		"max": {
+			"x": 1,
+			"y": 1,
+			"z": 1
+		}
+	}
+}
